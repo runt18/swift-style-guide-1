@@ -141,6 +141,19 @@ after the key type, followed by a space and then the value type.
 let capitals: [Country: City] = [ Sweden: Stockholm ]
 ```
 
+#### Literals
+
+`String`, `Dictionary`, `Array`, `Int`, and `Double` literals should be used to initialize those structs.
+```
+let array = ["Janum", "Sebs"]
+let emptyArray = []
+let dictionary  = ["amount" : 500, "note": "Karaoke to Taylor Swift", "audience": "public"]
+let emptyDictionary = [:]
+let bool = true
+let int = 4
+let double = 3.14
+```
+
 #### Only explicitly refer to `self` when required
 
 When accessing properties or methods on `self`, leave the reference to `self` implicit by default:
