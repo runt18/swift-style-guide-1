@@ -143,7 +143,7 @@ let capitals: [Country: City] = [ Sweden: Stockholm ]
 
 #### Literals
 
-`String`, `Dictionary`, `Array`, `Int`, and `Double` literals should be used to initialize those structs.
+`String`, `Dictionary`, `Array`, `Int`, and `Double` literals should be used to initialize those constructs instead of class initializers.
 ```
 let array = ["Janum", "Sebs"]
 let emptyArray = []
